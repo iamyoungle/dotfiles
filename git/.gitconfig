@@ -1,0 +1,22 @@
+[user]
+    name = YoungLe
+    email = contact@youngle.work
+
+[core]
+    excludesfile = ~/.gitignore_global
+    pager = delta
+
+[init]
+    defaultBranch = main
+
+[interactive]
+    diffFilter = delta --color-only --dark
+
+[delta]
+    features = decorations navigate
+    side-by-side = true
+    line-numbers = true
+    whitespace-error-style = 22 reverse
+
+[delta "decorations"]
+    file-style = bold yellow ul
