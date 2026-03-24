@@ -40,3 +40,6 @@ eval "$(direnv hook zsh)"
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Antigravity
+export PATH="/Users/db0x0db/.antigravity/antigravity/bin:$PATH"
+
